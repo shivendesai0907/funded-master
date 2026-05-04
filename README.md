@@ -11,6 +11,14 @@
 
 ---
 
+## 🌐 Live Demo
+
+👉 **[View Live Website](https://funded-master.vercel.app)**
+
+📦 **[GitHub Repository](https://github.com/shivendesai0907/funded-master)**
+
+---
+
 ## 📋 Tech Stack
 
 | Technology | Purpose | Version |
@@ -264,7 +272,17 @@ npm run preview
 npm run lint
 ```
 
-Built with ⚡ by Vite. Deployable to Netlify, Vercel, Firebase Hosting, etc.
+Built with ⚡ by Vite. Deployed on **Vercel**.
+
+## 🚀 Deployment
+
+| Platform | Link |
+|---|---|
+| **Live Website** | [funded-master.vercel.app](https://funded-master.vercel.app) |
+| **GitHub Repo** | [shivendesai0907/funded-master](https://github.com/shivendesai0907/funded-master) |
+| **Status** | ![Vercel](https://img.shields.io/badge/Vercel-Deployed-brightgreen?logo=vercel) |
+
+Auto-deploys on every push to the `main` branch via Vercel + GitHub integration.
 
 ---
 
