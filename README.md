@@ -6,6 +6,9 @@
 
 > **Live Assignment Project | Built with React.js + Vite | Firebase Authentication**
 
+## 🎥 Demo Video  
+[Watch Demo](https://drive.google.com/drive/folders/1p3aDYoFp160mGBwbzUrDncOfeSVnMacR?usp=sharing)
+
 ---
 
 ## 📋 Tech Stack
