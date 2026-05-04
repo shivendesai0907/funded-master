@@ -1,0 +1,5 @@
+/* App-specific styles - cleared for Navbar-only app */
+
+html {
+  scroll-behavior: smooth;
+}

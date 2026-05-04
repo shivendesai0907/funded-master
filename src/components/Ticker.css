@@ -1,0 +1,77 @@
+.ticker-strip {
+  width: 100%;
+  max-width: 100%;
+  height: 70px;
+  background: #0a0f0a;
+  border-top: 1px solid rgba(0, 201, 167, 0.2);
+  border-bottom: 1px solid rgba(0, 201, 167, 0.2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  animation: ticker 30s linear infinite;
+  width: max-content;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: fit-content;
+}
+
+.payout-item {
+  gap: 4px;
+}
+
+.stat-item {
+  gap: 4px;
+}
+
+.certificate-icon {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+
+.amount {
+  color: #00C9A7;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.location {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.number {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.label {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.15);
+}

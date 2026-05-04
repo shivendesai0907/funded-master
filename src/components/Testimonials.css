@@ -1,0 +1,164 @@
+.testimonials-section {
+  background: #060907;
+  padding: 80px 60px;
+  font-family: 'Figtree', sans-serif;
+  text-align: center;
+}
+
+.testimonials-label {
+  color: #00C9A7;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.testimonials-heading {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.testimonials-heading .teal { color: #00C9A7; }
+
+.trustpilot-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.excellent-text {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.stars-row {
+  display: flex;
+  gap: 4px;
+}
+
+.star-box {
+  background: #00C9A7;
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-half {
+  background: linear-gradient(90deg, #00C9A7 60%, #1a1a1a 60%);
+}
+
+.rating-text {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.rating-text .underline {
+  text-decoration: underline;
+}
+
+.masonry-scroll-wrapper {
+  max-height: 700px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+}
+
+.masonry-scroll-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.masonry-scroll-wrapper::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+}
+
+.masonry-scroll-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(0,201,167,0.4);
+  border-radius: 10px;
+}
+
+.masonry-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,201,167,0.7);
+}
+
+.masonry-grid {
+  columns: 3;
+  column-gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.review-card {
+  display: inline-block;
+  width: 100%;
+  background: #0d0d0d;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 24px;
+  margin-bottom: 20px;
+  break-inside: avoid;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.review-card:hover {
+  border-color: rgba(0,201,167,0.3);
+  box-shadow: 0 0 24px rgba(0,201,167,0.08);
+  transform: translateY(-2px);
+}
+
+.card-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.reviewer-line {
+  margin-bottom: 12px;
+}
+
+.reviewer-name {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.reviewer-time {
+  color: #666666;
+  font-size: 13px;
+}
+
+.card-title {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  color: #888888;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .masonry-grid { columns: 2; }
+}
+
+@media (max-width: 768px) {
+  .testimonials-section { padding: 60px 20px; }
+  .testimonials-heading { font-size: 34px; }
+  .masonry-grid { columns: 1; }
+  .masonry-scroll-wrapper { max-height: 600px; }
+}
